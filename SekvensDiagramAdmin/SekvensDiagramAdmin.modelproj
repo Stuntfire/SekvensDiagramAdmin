@@ -23,6 +23,13 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
+    <Content Include="Keptit_UMLSequenceDiagram.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Keptit_UMLSequenceDiagram.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Keptit_UMLSequenceDiagram.sequencediagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\SekvensDiagramAdmin.uml">
       <SubType>Content</SubType>
     </Content>
